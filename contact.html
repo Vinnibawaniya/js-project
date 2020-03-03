@@ -1,0 +1,62 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Contact Us</title>
+	  <link href="contactpage.css" type="text/css" rel="stylesheet">
+			<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css">
+			<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+			<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+			<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+			<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+</head>
+<body>
+	
+<div class="map-container">
+ 	 <div class="contact-heading text-center">
+						<h1 class="text-center bg-secondary mt-5 mx-5" style="border: 5px solid black" ><b><marquee>CONTACT US</marquee></b></h1>
+					</div> 
+								
+
+					 <form class="text-center bg-secondary mx-5" style="border: 5px solid black" onsubmit="return validate()" action="#">     
+						<div class="mt-5 text-center">  
+					  
+						    <p class="ml-3"><b>Name:</b>
+						    <input type="text" id="name" size=65 name="Name" required="" placeholder="Enter Your Full Name">  </p>
+						    <span id="massage"></span>
+						 
+						    <p><b> Address: </b> 
+
+						    	<input type="text" id="address" size=65 name="Address" required="" placeholder="Your Address"> </p>
+						    <span id="add"></span>
+
+						    <p class="mr-5"><b>E-mail Address:</b>
+
+						     <input type="text" id="mail" size=65 name="EMail" required="" placeholder="EMail">  </p>
+						    <span id="email"></span>
+
+						     <p class="mr-2"><b>Password: </b>
+
+						     	<input type="text" id="pass" size=65 name="Password" required="" placeholder="Password"> </p>
+						     <span id="pasw"></span>
+
+						    <p class="mr-2"><b>Telephone: </b>
+
+						     <input type="text" id="tele" size=65 name="Telephone"required="" placeholder="Contact"> </p> 
+						    <span id="tel"></span>
+						           
+						   
+						    <p class="mr-5"><b>Comments:</b> 
+
+						     <textarea cols="60" name="Comment">  </textarea></p> 
+						    <button onclick="validate()" type="button" class="btn btn-primary mb-5">Submit</button>
+						</div>             
+					 </form> 
+				
+				
+
+
+</div>
+
+</body>
+</html>

@@ -1,0 +1,180 @@
+*, html , body
+{
+	margin: 0;
+	padding 0;
+}
+.logo img
+{
+	height: 50px;
+	margin-top: 10PX;
+	margin-left: 25PX;
+}
+header
+{
+	background-color: #00b3b3;
+	height: 112px;
+	line-height: 112px;
+	text-align: right;
+
+}
+ul
+{
+	list-style: none;
+	padding-left: 400px;
+
+}
+ul li
+{
+	display: inline-block;
+}
+header nav 
+{
+	float: right;
+
+}
+ li 
+{
+	padding-right: 30px;
+	margin-left: auto;
+	padding-left: 30px;
+	font-weight: bold;
+	color: #000000;
+}
+  a:hover
+{
+	text-decoration: none;
+	color: #000000;
+	
+}
+.text-block {
+  position: absolute;
+  bottom: 220px;
+  left: 220px;
+  background-color: #00cccc;
+  color: #000000;
+  padding-left: 20px;
+  padding-right: 20px;
+  height: 120px;
+  width:260px;
+  font-style: italic;
+  text-align: center;
+  padding-top: 10px;
+  margin:auto;
+
+}
+.banner-img
+{
+	width: 100%;
+
+}
+.intro-area
+{
+	position: relative;
+	padding: 100px 0px;
+
+}
+.sub-heading
+{
+	position: relative;
+	margin-bottom: 75px;
+}
+
+.sub-heading p
+{
+	color: #818181;
+	display: inline-block;
+	padding: 0ox 0px 50px;
+	position: relative;
+	
+	later-spacing: 0.025em;
+}
+.intro-block
+{
+	position: relative;
+	background: #f7f7f7;
+	margin: 50px 0px 0px;
+	padding: 70px 25px 40px;
+	text-align: center;
+	line-height: 30px;
+}
+.contact-heading
+{
+	margin; auto;
+	padding-top: 50px;
+	font-weight: bold;
+
+
+input
+{
+	width: 50%;
+	height: 30px;
+	padding: 0px;
+
+}
+ form
+{
+	padding: 150px;	
+	background-color: #978D8B;
+	text-align: center;
+
+}
+.bottom-footer
+{
+	margin: auto;
+	background-color: red;
+   border-top: 1px solid #ededed;
+
+ 
+}
+.clearfix p
+{
+	padding-top: 40px;
+}
+.map-container{
+overflow:hidden;
+padding-bottom:56.25%;
+position:relative;
+height:200px;
+}
+.map-container iframe{
+left:30;
+top:30;
+height:400px;
+width:1000px;
+position:absolute;
+}
+
+.bg-info
+   {
+   	padding-top: 150px;
+   	margin: auto;
+   }
+.countdown 
+{ 
+	text-align: right;
+	height: 10px;
+	display: flex;justify-content: center;
+	align-items: center;
+	background-image: linear-gradient(#16bffd, #cb3066);
+
+}
+.demo
+{
+   height: 100px;
+   width: 600px;
+   background-image: linear-gradient(#16bffd, #cb3066);
+   box-shadow: inset 0 0 10px #000000;
+   color: white;
+   line-height: 100px;
+   text-align: center;
+   font-size: 60px;
+   margin-top: 0px;
+   box-shadow: 1px 1px 0px #000;
+           
+
+}
+ .h1,h
+{
+	text-align: center;
+
+}

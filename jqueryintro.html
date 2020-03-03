@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Jquery</title>
+	<script src ="jquery-3.4.1.min.js"></script>
+	<script src ="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+</head>
+<body>
+
+	<!--
+	 first example:
+
+	 <div class="test">I am going to hide you...</div>
+	<button id="hideandseek">click me</button>-->
+    
+    <!-- SELECTORS :
+	<p class="test" style="background-color: #0CF86D; color: white;">Paragraphs are the building blocks of papers. Many students define paragraphs in terms of length: a paragraph is a group of at least five sentences, a paragraph is half a page long, etc. In reality, though, the unity and coherence of ideas among sentences is what constitutes a paragraph. A paragraph is defined as “a group of sentences or a single sentence that forms a unit” (Lunsford and Connors 116). Length and appearance do not determine whether a section in a paper is a paragraph.</p>
+	<br>
+
+	<p class="test2" style="background-color: #0CBFF8; color: white;">Paragraphs are the building blocks of papers. Many students define paragraphs in terms of length: a paragraph is a group of at least five sentences, a paragraph is half a page long, etc. In reality, though, the unity and coherence of ideas among sentences is what constitutes a paragraph. A paragraph is defined as “a group of sentences or a single sentence that forms a unit” (Lunsford and Connors 116). Length and appearance do not determine whether a section in a paper is a paragraph.</p>
+	<br>
+
+	<ul>
+		<li style="background-color: #F80C70; color: white;">The whole process is an organic one—a natural progression from a seed to a full-blown paper where there are direct, familial relationships between all of the ideas in the paper.</li>
+		<br>
+		<li style="background-color: #D40CF8; color: white;">The whole process is an organic one—a natural progression from a seed to a full-blown paper where there are direct, familial relationships between all of the ideas in the paper.</li>
+
+	</ul>
+
+		<button id="hideandseek" style="background-color: #0C17F8; color: white; border: none; padding: 10px">
+			click me
+		</button> -->
+        
+        <!-- jq CSS Method : -->
+
+        <a href="#" id="anchor">Paragraphs are the building blocks of papers. Many students define paragraphs in terms of length: a paragraph is a group of at least five sentences.</a>
+        <br><br>
+        <button id="testbtn">click me</button>
+
+
+
+	<script>
+		/* SELECTORS IN JQ :
+		$(document).ready(function()
+		{
+			//$('#test').text('hello world with jQuery');
+			$('#hideandseek').click(function()
+			{
+				$('li:last').hide();
+			});
+		});
+		*/
+			$(document).ready(function(){
+				$('#testbtn').click(function(){
+					$('#anchor').css({
+						"textDecoration":"none" ,
+						"backgroundColor": "yellow" ,
+						"color":"red"
+
+					});
+				});
+			});
+
+		
+	</script>
+</body>
+</html>
